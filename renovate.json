@@ -1,0 +1,7 @@
+{
+  "automerge": true,
+  "extends": [
+    "config:base",
+    "github>aquaproj/aqua-renovate-config:file(aqua-quick-start/assets/.*\\.yaml)"
+  ]
+}
