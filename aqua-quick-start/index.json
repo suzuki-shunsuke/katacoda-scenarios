@@ -14,8 +14,12 @@
         "text": "install-tools.md"
       },
       {
-        "title": "Search packages",
+        "title": "Search Packages",
         "text": "search-packages.md"
+      },
+      {
+        "title": "Lazy Install",
+        "text": "lazy-install.md"
       }
     ],
     "intro": {
