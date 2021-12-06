@@ -7,11 +7,15 @@
     "steps": [
       {
         "title": "Install aqua",
-        "text": "step1.md"
+        "text": "install-aqua.md"
       },
       {
         "title": "Install tools with aqua",
         "text": "install-tools.md"
+      },
+      {
+        "title": "Search packages",
+        "text": "search-packages.md"
       }
     ],
     "intro": {
@@ -28,8 +32,7 @@
 		}
   },
   "environment": {
-    "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "bash"
