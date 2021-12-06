@@ -20,6 +20,10 @@
       {
         "title": "Lazy Install",
         "text": "lazy-install.md"
+      },
+      {
+        "title": "`aqua i`'s `-l` option",
+        "text": "install-only-link.md"
       }
     ],
     "intro": {
