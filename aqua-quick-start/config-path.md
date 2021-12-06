@@ -2,6 +2,8 @@ aqua finds configuration files from the current directory to the root directory.
 
 `mkdir zoo`{{execute}}
 
+`cd zoo`{{execute}}
+
 `gh version`{{execute}}
 
 aqua reads configuration files until the tool is found.
