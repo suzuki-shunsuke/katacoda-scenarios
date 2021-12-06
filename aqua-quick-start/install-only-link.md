@@ -1,4 +1,4 @@
-You added [tfmigrator/cli](https://github.com/tfmigrator/cli) in [Search packages](search-packages), but it isn't installed yet.
+You added [tfmigrator/cli](https://github.com/tfmigrator/cli) in the step `Search packages`, but it isn't installed yet.
 
 `tfmigrator -v`{{execute}}
 
@@ -9,7 +9,7 @@ The command would exit immediately, because the tool isn't downloaded and instal
 The command `aqua i` installs all tools at once.
 But when the option `-l` is set, `aqua i` creates only symbolic links in `~/.aqua/bin` and skips downloading and installing tools.
 
-Even if downloading and installing are skipped, you can execute the tool thanks for [Lazy Install](lazy-install).
+Even if downloading and installing are skipped, you can execute the tool thanks for `Lazy Install`.
 
 `tfmigrator -v`{{execute}}
 
