@@ -9,7 +9,7 @@ let's add the global configuration `~/.aqua/global/aqua.yaml`.
 
 `mkdir ~/.aqua/global`{{execute}}
 
-`cp global-config/aqua.yaml ~/.aqua/global`{{execute}}
+`cp /workspace/global/aqua.yaml ~/.aqua/global`{{execute}}
 
 `gh version`{{execute}}
 
