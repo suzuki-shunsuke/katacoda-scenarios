@@ -11,6 +11,8 @@ let's add the global configuration `~/.aqua/global/aqua.yaml`.
 
 `cp /workspace/global/aqua.yaml ~/.aqua/global`{{execute}}
 
+`cat ~/.aqua/global/aqua.yaml`{{execute}}
+
 `gh version`{{execute}}
 
 You can add Global Configuration by the environment variable `AQUA_GLOBAL_CONFIG`.
