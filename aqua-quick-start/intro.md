@@ -1,1 +1,1 @@
-Welcome to your first Katacoda Scenario!
+https://aquaproj.github.io/docs/tutorial-basics/quick-start

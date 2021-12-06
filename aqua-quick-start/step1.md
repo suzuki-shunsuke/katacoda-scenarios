@@ -1,7 +1,16 @@
-aqua is a CLI tool to install CLI tools with declarative YAML configuration. In this quick start, let's install aqua and install tools with aqua.
+aqua is a CLI tool to install CLI tools with declarative YAML configuration.
+In this quick start, let's install aqua and install tools with aqua.
 
-## Task
+## Install aqua
 
-This is an _example_ of creating a scenario and running a **command**
+Install aqua with ([aqua-installer](https://github.com/aquaproj/aqua-installer)).
 
-`echo 'Hello World'`{{execute}}
+`curl -sSfL https://raw.githubusercontent.com/aquaproj/aqua-installer/v0.3.0/aqua-installer | bash`{{execute}}
+
+Add `~/.aqua/bin` to the environmenet variable `PATH`.
+
+`export PATH=$HOME/.aqua/bin:$PATH`{{execute}}
+
+Confirm if aqua is installed correctly.
+
+`aqua -v`{{execute}}
