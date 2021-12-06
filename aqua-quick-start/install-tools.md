@@ -1,5 +1,3 @@
-## Install tools with aqua
-
 Let's install [GitHub Official CLI](https://cli.github.com/) and [fzf](https://github.com/junegunn/fzf) with aqua.
 
 Move to the working directory.

@@ -1,8 +1,10 @@
-# Lazy Install
-
 Let's change the tool version.
 
 `sed -i "s|cli/cli@v2\.2\.0|cli/cli@v2.1.0|" aqua.yaml`{{execute}}
+
+`cat aqua.yaml`{{execute}}
+
+Then execute GitHub CLI.
 
 `gh version`{{execute}}
 

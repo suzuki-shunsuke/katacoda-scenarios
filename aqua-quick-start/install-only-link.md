@@ -1,5 +1,3 @@
-# `aqua i`'s `-l` option
-
 You added [tfmigrator/cli](https://github.com/tfmigrator/cli) in [Search packages](search-packages), but it isn't installed yet.
 
 `tfmigrator -v`{{execute}}
