@@ -24,6 +24,10 @@
       {
         "title": "`aqua i`'s `-l` option",
         "text": "install-only-link.md"
+      },
+      {
+        "title": "Use different version per project",
+        "text": "change-version-per-project.md"
       }
     ],
     "intro": {
