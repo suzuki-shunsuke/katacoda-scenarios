@@ -4,10 +4,16 @@
   "difficulty": "beginner",
   "time": "5 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Install aqua",
-      "text": "step1.md"
-    }],
+    "steps": [
+      {
+        "title": "Install aqua",
+        "text": "step1.md"
+      },
+      {
+        "title": "Install tools with aqua",
+        "text": "install-tools.md"
+      }
+    ],
     "intro": {
       "text": "intro.md",
       "credits": ""
