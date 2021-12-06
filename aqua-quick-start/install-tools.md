@@ -1,11 +1,8 @@
 Let's install [GitHub Official CLI](https://cli.github.com/) and [fzf](https://github.com/junegunn/fzf) with aqua.
 
-Move to the working directory.
-Let's check `aqua.yaml`.
+Let's move to the working directory and check `aqua.yaml`.
 
 `cd /workspace`{{execute}}
-
-`ls -A`{{execute}}
 
 `cat aqua.yaml`{{execute}}
 
