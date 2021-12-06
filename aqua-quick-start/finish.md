@@ -5,4 +5,4 @@ You've completed aqua Quick Start!
 Please see the following document.
 
 1. [Comparison](https://aquaproj.github.io/docs/comparison/common): You can understand the difference of aqua and other tools
-1. [Tutotorial - Extras](https://aquaproj.github.io/docs/tutorial-extras/global-config)
+1. [Tutorial - Extras](https://aquaproj.github.io/docs/tutorial-extras/global-config)
