@@ -32,6 +32,10 @@
       {
         "title": "Configuration File Path",
         "text": "config-path.md"
+      },
+      {
+        "title": "Global Configuration",
+        "text": "global-config.md"
       }
     ],
     "intro": {
