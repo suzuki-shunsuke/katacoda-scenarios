@@ -1,11 +1,14 @@
 {
   "automerge": true,
-  "enabled": false,
   "extends": [
     "config:base",
     "github>aquaproj/aqua-renovate-config:file(aqua-quick-start/assets/.*\\.yaml)"
   ],
   "packageRules": [
+    {
+      "enabled": false,
+      "matchPackagePatterns": [".*"]
+    },
     {
       "enabled": true,
       "matchPackageNames": ["aquaproj/aqua-registry"]
