@@ -1,8 +1,10 @@
 Let's install [GitHub Official CLI](https://cli.github.com/) and [fzf](https://github.com/junegunn/fzf) with aqua.
 
-Let's move to the working directory and check `aqua.yaml`.
+Let's add them to `packages` in `aqua.yaml`.
 
-`cd /workspace`{{execute}}
+`cat "- name: cli/cli@v2.2.0" >> aqua.yaml`{{execute}}
+
+`cat "- name: junegunn/fzf@0.28.0" >> aqua.yaml`{{execute}}
 
 `cat aqua.yaml`{{execute}}
 
