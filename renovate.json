@@ -2,9 +2,13 @@
   "automerge": true,
   "extends": [
     "config:base",
-    "github>aquaproj/aqua-renovate-config:file#0.1.4",
-    "github>aquaproj/aqua-renovate-config:file#0.1.4(aqua-quick-start/assets/.*\\.yaml)"
+    "github>aquaproj/aqua-renovate-config:file#0.1.8",
+    "github>aquaproj/aqua-renovate-config:file#0.1.8(aqua-quick-start/assets/.*\\.yaml)",
+    "github>aquaproj/aqua-renovate-config:installer-script#0.1.8(aqua-quick-start/.+)"
   ],
+  "major": {
+    "automerge": false
+  },
   "packageRules": [
     {
       "enabled": false,
@@ -12,7 +16,10 @@
     },
     {
       "enabled": true,
-      "matchPackageNames": ["aquaproj/aqua-registry"]
+      "matchPackageNames": [
+        "aquaproj/aqua-registry",
+        "aquaproj/aqua-installer"
+      ]
     }
   ]
 }
