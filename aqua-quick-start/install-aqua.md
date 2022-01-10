@@ -3,7 +3,7 @@ In this quick start, let's install aqua and install tools with aqua.
 
 Install aqua with ([aqua-installer](https://github.com/aquaproj/aqua-installer)).
 
-`curl -sSfL https://raw.githubusercontent.com/aquaproj/aqua-installer/v0.3.0/aqua-installer | bash`{{execute}}
+`curl -sSfL https://raw.githubusercontent.com/aquaproj/aqua-installer/v0.5.0/aqua-installer | bash`{{execute}}
 
 Confirm if aqua is installed correctly.
 
