@@ -5,14 +5,15 @@ aqua finds the configuration files from the current directory to the root direct
 `gh version`{{execute}}
 
 If you want to install tools regardless the current directory,
-let's add the global configuration `~/.aqua/global/aqua.yaml`.
+let's add the global configuration.
+Global Configuration file paths are configured with the environment variable `AQUA_GLOBALCONFIG`. You can change the file path freely.
 
-`mkdir ~/.aqua/global`{{execute}}
+`export AQUA_GLOBAL_CONFIG="${AQUA_GLOBAL_CONFIG:-}:${XDG_CONFIG_HOME:-$HOME/.config}/aquaproj-aqua/aqua.yaml"`{{execute}}
 
-`cp /workspace/global/aqua.yaml ~/.aqua/global`{{execute}}
+`mkdir -p ${XDG_CONFIG_HOME:-$HOME/.config}/aquaproj-aqua`{{execute}}
 
-`cat ~/.aqua/global/aqua.yaml`{{execute}}
+`cp /workspace/global/aqua.yaml ${XDG_CONFIG_HOME:-$HOME/.config}/aquaproj-aqua`{{execute}}
+
+`cat ${XDG_CONFIG_HOME:-$HOME/.config}/aquaproj-aqua/aqua.yaml`{{execute}}
 
 `gh version`{{execute}}
-
-You can add Global Configuration by the environment variable `AQUA_GLOBAL_CONFIG`.

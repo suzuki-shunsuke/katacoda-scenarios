@@ -9,6 +9,6 @@ Confirm if aqua is installed correctly.
 
 `aqua -v`{{execute}}
 
-Add `~/.aqua/bin` to the environmenet variable `PATH`.
+Add `${AQUA_ROOT_DIR:-${XDG_DATA_HOME:-$HOME/.local/share}/aquaproj-aqua}/bin` to the environmenet variable `PATH`.
 
-`export PATH=$HOME/.aqua/bin:$PATH`{{execute}}
+`export PATH="${AQUA_ROOT_DIR:-${XDG_DATA_HOME:-$HOME/.local/share}/aquaproj-aqua}/bin:$PATH"`{{execute}}

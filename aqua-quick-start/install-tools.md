@@ -20,4 +20,4 @@ Congratulation! Tools are installed correctly.
 
 `fzf --version`{{execute}}
 
-aqua installs tools in `~/.aqua` by default.
+aqua installs tools in `${AQUA_ROOT_DIR:-${XDG_DATA_HOME:-$HOME/.local/share}/aquaproj-aqua}`.
