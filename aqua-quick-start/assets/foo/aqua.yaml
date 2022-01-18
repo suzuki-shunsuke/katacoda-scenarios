@@ -1,7 +1,7 @@
 # foo/aqua.yaml
 registries:
 - type: standard
-  ref: v0.14.0 # renovate: depName=aquaproj/aqua-registry
+  ref: v0.14.1 # renovate: depName=aquaproj/aqua-registry
 
 packages:
 - name: cli/cli@v2.1.0
