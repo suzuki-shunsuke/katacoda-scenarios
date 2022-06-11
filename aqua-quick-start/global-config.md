@@ -6,7 +6,7 @@ aqua finds the configuration files from the current directory to the root direct
 
 If you want to install tools regardless the current directory,
 let's add the global configuration.
-Global Configuration file paths are configured with the environment variable `AQUA_GLOBALCONFIG`. You can change the file path freely.
+Global Configuration file paths are configured with the environment variable `AQUA_GLOBAL_CONFIG`. You can change the file path freely.
 
 `export AQUA_GLOBAL_CONFIG="${AQUA_GLOBAL_CONFIG:-}:${XDG_CONFIG_HOME:-$HOME/.config}/aquaproj-aqua/aqua.yaml"`{{execute}}
 
